@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+li {
+    font-size: 12px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    background-color: midnightblue;
+    z-index: 999;
+    text-align: center;
+    letter-spacing: 1rem;
+    font-weight: bolder;
+
+    line-height: 75px;
+
+}
+
+.header span {
+    background-color: midnightblue;
+    font: 1000 36px "Comic Sans MS";
+    color: rgba(205, 228, 2, 0.6);
+    text-shadow: 5px 5px 15px #fdec84,
+    4px -5px 20px #ffae35,
+    5px -5px 10px #ec760c,
+    0px -5px 30px #cd4607,
+    0px -80px 50px #973717,
+    5px -100px 100px #451b0e;
+}
+
+.header .title1 {
+    color: rgba(205, 228, 2, 0.3);
+}
+
+.header .title2 {
+    color: rgba(205, 228, 2, 0.49);
+}
+
+.header .title3 {
+    color: rgba(205, 228, 2, 0.6);
+}
+
+.header .title4 {
+    color: rgba(205, 228, 2, 0.8);
+    text-shadow: 5px -5px 10px #ec760c,
+    0px -5px 30px #cd4607,
+}
+
+.content {
+    position: absolute;
+    margin: 20% 20%;
+    height: 80%;
+    width: 60%;
+    /* background-color: pink; */
+    /* border: 2px soild red; */
+}
+
+.picture {
+    display: inline-block;
+    position: relative;
+    margin: 10% 20%;
+    height: 28%;
+    width: 60%;
+    padding: 3% 10%;
+    border: 5px solid #cceff5;
+    background: #fafcfd;
+    /* background-color: blue; */
+}
+
+.data {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    /*background-color: coral;*/
+}
+
+.return-info li {
+    display: block;
+    font-weight: bolder;
+    font-size: 14px;
+    width: 80%;
+    height: 10%;
+    margin: 0 auto;
+    margin-top: 1.3rem;
+    padding: 0 1em;
+    background-color: cornflowerblue;
+
+    background-color: rgba(102, 146, 191, 0.44);
+    /*边框*/
+    border: solid 1px rgba(102, 146, 191, 0.68);
+    /*边角弧度*/
+    border-radius: 10px;
+    /*阴影*/
+    -moz-box-shadow: 2px 2px 5px #333333;
+    -webkit-box-shadow: 2px 2px 5px #333333;
+    box-shadow: 7px 15px 30px #285a63;
+
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box; /* Opera */
+    transition: all 0.3s linear; /*0.3s过渡时间*/
+    -moz-transition: all 0.3s linear; /* Firefox 4 */
+    -webkit-transition: all 0.3s linear; /* Safari 和 Chrome */
+
+}
+
+.return-info li span {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    margin: 0 1rem;
+    margin-right: 1px;
+
+    background-color: rgba(102,146,191,0.44);
+
+    border-radius: 20%;
+}
+
+
+.glass {
+    display: inline-block;
+    /* border: 1px solid red; */
+    margin-right: 1px;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    left: 0;
+    bottom: 0;
+    /* background-color: green; */
+}
+
+.footer span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #999;
+}
+
+.footer .upload {
+
+    height: 40px;
+    width: 60%;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    cursor: pointer;
+    background: #44bbff;
+    color: #FFFFFF;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 20%;
+    /* opacity: 0.1; */
+}
+
+.footer input {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+}
+
+.footer input:hover {
+    cursor: pointer;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    /* opacity: 1; */
+}
+
+
